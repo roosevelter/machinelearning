@@ -1,4 +1,4 @@
-library(caret); library(C50); library(e1071); library(randomForest); library(class); library(ipred); library(kernlab)
+library(caret); library(C50); library(e1071); library(randomForest); library(class); library(ipred); library(kernlab); library(gmodels)
 data = na.omit(data)
 set.seed(1993)
 dataIndex = createDataPartition(data$terroristattack, p = .75, list = F, times = 1)
